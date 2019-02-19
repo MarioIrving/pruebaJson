@@ -1,0 +1,10 @@
+{
+
+    "prueba": [{
+        "item": "verduras",
+        "items": ["zanahoria", "calabaza", "papa", "chayote", "ejote"]
+    }, {
+        "item": "frutas",
+        "items": ["manzana", "pera", "guayaba", "platano", "sandia"]
+    }]
+}

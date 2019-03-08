@@ -1,10 +1,323 @@
 {
-
-    "prueba": [{
-        "item": "verduras",
-        "items": ["zanahoria", "calabaza", "papa", "chayote", "ejote"]
+  
+  "infoBar": [
+      {
+          "customer": "Guillermo Francisco Hernández Gutiérrez",
+          "personType": "Persona Física",
+          "level": "N1",
+          "code": "D0055275",
+          "buroDate": "26/12/2018",
+          "age": "48 AÑOS",
+          "income": "42000",
+          "YKCP": "32000"
+      }
+  ],
+  "asideList": [
+      {
+          "title": "Contratos",
+          "list": [
+            {
+              "id": "creditos",
+              "name": "Créditos",
+              "items": [
+                {
+                  "id": "1",
+                  "name": "Oro"
+                },
+                {
+                  "id": "2",
+                  "name": "Platinum"
+                },
+                {
+                  "id": "3",
+                  "name": "Afinidad UNAM"
+                }
+              ]
+            },
+            {
+              "id": "captacion",
+              "name": "Captación",
+              "items": [
+                {
+                  "id": "1",
+                  "name": "13587502000590567320"
+                },
+                {
+                  "id": "2",
+                  "name": "48097502400590567380"
+                },
+                {
+                  "id": "3",
+                  "name": "99587502660590568820"
+                },
+                {
+                  "id": "4",
+                  "name": "19084402090590567380"
+                },
+                {
+                  "id": "5",
+                  "name": "88087502440590567123"
+                },
+                {
+                  "id": "6",
+                  "name": "13587502000590567320"
+                },
+                {
+                  "id": "7",
+                  "name": "19084402090590569383"
+                },
+                {
+                  "id": "8",
+                  "name": "19084402090590569082"
+                },
+                {
+                  "id": "9",
+                  "name": "19084402090590560999"
+                },
+                {
+                  "id": "10",
+                  "name": "19084402090590562341"
+                }
+              ]
+            },
+            {
+              "id": "seguros",
+              "name": "Seguros",
+              "items": [
+                {
+                  "id": "1",
+                  "name": "id"
+                }
+              ]
+            },
+            {
+              "id": "servicios",
+              "name": "Servicios",
+              "items": [
+                {
+                  "id": "1",
+                  "name": "Bancomer Móvil"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Solicitudes",
+          "list": [
+            {
+              "id": "formalizadas",
+              "name": "Formalizadas",
+              "items": [
+                {
+                  "id": "1",
+                  "contrato": "13587502000590567309",
+                  "operacion": "CJ13",
+                  "lineaCredito": "8000",
+                  "fechaSol": "12 ene 2019"
+                },
+                {
+                  "id": "2",
+                  "contrato": "13587502000590567333",
+                  "operacion": "CN01",
+                  "lineaCredito": "8000",
+                  "fechaSol": "12 ene 2019"
+                },
+                {
+                  "id": "3",
+                  "contrato": "13587502000590567311",
+                  "operacion": "CM06",
+                  "lineaCredito": "8000",
+                  "fechaSol": "12 ene 2019"
+                }
+              ]
+            },
+            {
+              "id": "pendientes",
+              "name": "Pendientes",
+              "items": [
+                {
+                  "id": "1",
+                  "contrato": "13587502000590567320",
+                  "operacion": "CJ13",
+                  "lineaCredito": "8000",
+                  "fechaSol": "12 ene 2019"
+                }, {
+                  "id": "2",
+                  "contrato": "13587502000534567320",
+                  "operacion": "CN01",
+                  "lineaCredito": "8000",
+                  "fechaSol": "12 ene 2019"
+                }, {
+                  "id": "3",
+                  "contrato": "13587502000590567356",
+                  "operacion": "CM06",
+                  "lineaCredito": "8000",
+                  "fechaSol": "12 ene 2019"
+                }, {
+                  "id": "4",
+                  "contrato": "13587502000590567312",
+                  "operacion": "'CN01",
+                  "lineaCredito": "8000",
+                  "fechaSol": "12 ene 2019"
+                }
+              ]
+            },
+            {
+              "id": "denegadas",
+              "name": "Denegadas",
+              "items": []
+            },
+            {
+              "id": "anuladas",
+              "name": "Anuladas",
+              "items": []
+            }
+          ]
+        }
+  ],
+  "ofertas": [
+    {
+      "header": "Ofertas preabrobadas",
+      "list": [
+        {
+          "name": "Tarjeta de crédito rayados",
+          "icons": ["coronita:visualize", "coronita:document", "coronita:executive"],
+          "info": ""
+        }, {
+          "name": "Auto seguro",
+          "icons": ["coronita:visualize", "coronita:document", "coronita:executive"],
+          "info": ""
+        }, {
+          "name": "Incremento de línea de crédito",
+          "icons": ["coronita:visualize", "coronita:document", "coronita:executive"],
+          "info": ""
+        }
+      ]
     }, {
-        "item": "frutas",
-        "items": ["manzana", "pera", "guayaba", "platano", "sandia"]
-    }]
+      "header": "Próxima mejor oferta",
+      "list": [
+        {
+          "name": "Préstamo al consumo",
+          "icons": ["coronita:info", "coronita:document", ""],
+          "info": ""
+        }, {
+          "name": "Inversión",
+          "icons": ["coronita:info", "coronita:document", ""],
+          "info": ""
+        }, {
+          "name": "Hogar Seguro",
+          "icons": ["coronita:info", "coronita:document", ""],
+          "info": ""
+        }, {
+          "name": "Bancomer móvil",
+          "icons": ["coronita:info", "coronita:document", ""],
+          "info": ""
+        }
+      ]
+    }
+  ],
+  "productos": [
+    {
+      "header": "Captación",
+      "list": [
+        {
+          "name": "Cuenta sin chequera",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Cuenta con chequera",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Inversión",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Fondos de inversión",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Meta de ahorro",
+          "icons": ["coronita:info", "coronita:document"],
+          "info": ""
+        }, {
+          "name": "Cuenta invisible",
+          "icons": ["coronita:info", "coronita:document"],
+          "info": ""
+        }
+      ]
+    }, {
+      "header": "Colocación",
+      "list": [
+        {
+          "name": "Préstamo al consumo",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Tarjeta de crédito",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Crédito hipotecario",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }
+      ]
+    }, {
+      "header": "Seguros",
+      "list": [
+        {
+          "name": "Auto seguro flotilla",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Hogar seguro",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Vida segura",
+          "icons": ["", "coronita:return-15"],
+          "info": ""
+        }
+      ]
+    }, {
+      "header": "Servicios",
+      "list": [
+        {
+          "name": "Domiciliaciones",
+          "icons": ["coronita:info", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Alertas bancomer",
+          "icons": ["coronita:info", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Bancomer.com",
+          "icons": ["coronita:info", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "Bancomer SMS",
+          "icons": ["coronita:info", "coronita:return-15"],
+          "info": ""
+        }, {
+          "name": "TIB",
+          "icons": ["coronita:info", "coronita:document"],
+          "info": ""
+        }, {
+          "name": "Adquiriente Express",
+          "icons": ["coronita:info", "coronita:document"],
+          "info": ""
+        }, {
+          "name": "CIE",
+          "icons": ["coronita:info", "coronita:document"],
+          "info": ""
+        }, {
+          "name": "DEM",
+          "icons": ["coronita:info", "coronita:document"],
+          "info": ""
+        }
+      ]
+    }
+  ]
 }
